@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "remove hot network questions",
+    "description": "removes hot network questions node from stackoverflow sites to reduce distractions",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "js": ["scripts/content.js"],
+            "matches": [
+                "https://stackoverflow.com/*",
+                "https://*.stackexchange.com"
+            ]
+        }
+    ]
+  }

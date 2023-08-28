@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Access Token Copy",
+    "description": "Copies current access token if present in local storage on Ctrl+Shift+C",
+    "version": "1.0",
+    "content_scripts": [
+      {
+          "js": ["scripts/content.js"],
+          "matches": [
+              // replace
+          ]
+      }
+  ]
+  }
